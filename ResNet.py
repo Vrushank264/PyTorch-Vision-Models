@@ -95,21 +95,5 @@ from torchsummary import summary
 print(summary(model, (3,224,224), device = 'cpu'))
 x = torch.randn(3,3,224,224)
 y = model(x)
-print(y.shape)
-       
-        
-        
-        
-        
-        
-        
-    
-        
-        
-    
-    
-    
-    
-    
-    
+print(y.shape)  
         
